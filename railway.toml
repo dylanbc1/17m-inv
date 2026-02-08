@@ -1,0 +1,8 @@
+# Railway: la app escucha en el puerto que Railway asigna (variable PORT).
+# En el panel: Networking → Public Networking → Target port → pon 8080
+
+[build]
+builder = "nixpacks"
+
+[deploy]
+startCommand = "node server.js"
